@@ -1,0 +1,18 @@
+div{
+    background-color: rgb(212, 100, 100);
+    border: 1px dotted black;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+    position: static;
+}
+p{
+    color: blueviolet;
+}
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
