@@ -5,34 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout</title>
     <style>
-        ul.sidebar-menu{
-            list-style: none;
-            padding: 0;
-        }
+       :root {
+    --primary-color: #fff;
+    --sidebar-text-color: #4ed14e;
+    --sidebar-text-color-hover: #d5e0d5;
 
-        ul.sidebar-menu a {
-            display: block;
-            height: 40px;
-            background-color: rgb(226, 114, 114);
-            border-bottom: 1px solid rgb(230, 84, 84);
-            padding: 20px 10px 0;
-            color: aliceblue;
-        }
 
-        a {
-            text-decoration: none;
-        }
-        aside {
-            width: 250px;
-            background-color: rgb(228, 209, 209);
-            padding-top: 20px;
-            padding: 20px 20px;
-        }
+}
 
-        .profile-image,
-        .user-name {
-            text-align: center;
-        }
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: 
+}
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+ul.sidebar-menu{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+ul.sidebar-menu a {
+    display: block;
+    height: 40px;
+    background-color: rgb(221, 167, 20);
+    border-radius: 5px;
+    padding: 10px 10px 0 40px;
+    color: var(--text-color)
+}
+
+ul.sidebar-menu a span{
+    color: #337AB7;
+    display: inline-block;
+}
+
+.glyphicon {
+    color: #337AB7;
+}
+
+ul.sidebar-menu a:hover {
+    background-color: #ddd;
+    text-decoration: none;
+    color: #337AB7;
+}
+
+ul.sidebar-menu a:hover i {
+    transform: rotateY(270deg);
+}
+
+a {
+    text-decoration: none;
+}
+aside {
+    width: 250px;
+    background-color: rgb(224, 221, 221);
+    padding: 20px 20px;
+}
+
+.profile-image,
+.user-name {
+    text-align: center;
+    color
+}
 
     </style>
 </head>
